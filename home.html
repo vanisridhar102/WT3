@@ -1,0 +1,149 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <style>
+            body{
+                margin:0px;
+            }
+            .nav{
+                list-style-type:none;
+                background: #262228;
+                overflow:hidden;
+                font-family:'Times New Roman', Times, serif; 
+                height:7%;
+            }
+            .nav a{
+                float: left;
+                text-decoration: none;
+                padding: 14px 14px;
+                text-align: center;
+                font-size: 16px;
+                color: honeydew;
+            }
+            .nav a:hover{
+                color:red;
+                background: rgb(101, 8, 119);
+            }
+            .dropdown{
+                float:left;
+            }
+            .dropbut{
+                background-color: #262228;
+                color:honeydew;
+                width:70px;
+                height:10%;
+                padding: 12px 12px;
+                font-size:18px;
+                outline:none;
+                border:none;
+                font-family:'Times New Roman', Times, serif;
+            }
+           .dropbut:hover{
+                color: red;
+                background: rgb(101, 8, 119);
+            }
+            .dropdown-content{
+                display:none;
+                position: absolute;
+                background-color: #69e6b6;
+                min-width: 160px;
+                box-shadow:0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index:2px;
+                margin-top: 19.5px;
+            }
+            .dropdown-content a{
+                float:none;
+                color:black;
+                padding:12px 16px;
+                text-decoration: none;
+                display:block;
+                text-align: left;
+            }
+            .dropdown-content a:hover{
+                background-color: rgb(9, 153, 146);
+                color:pink
+
+            }
+            .dropdown:hover .dropdown-content{
+                display:block
+            }
+            .content-box{
+                width: 20%;
+                height: 93%;
+                background-color: #007849;
+                font-size: 11px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .content-box a{
+                color: pink;
+                text-decoration: none;
+                padding: 14px 14px;
+                text-align: left;
+                font-size: 13px;
+                display: block;
+                border:1px darkgoldenrod;
+            }
+            .content-box a:hover{
+                background-color: #69e6b6 ;
+                color: darkmagenta;
+            }
+            .content-area{
+                color: darkslategray;
+                background-color: lightgreen;
+                width: 80%;
+                height: 93%;
+                float: right;
+                margin-top:-581px;
+            }
+            p{
+                font-size: 17px;
+                padding-left: 50px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            h1{
+               font-family: 'Times New Roman', Times, serif;
+               font-weight: 300; 
+               color:firebrick
+            }
+            hr{
+                border:1px solid white;
+            }
+            span{
+                font-style: oblique;
+                color:blue;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+       <div class="nav">
+            <a href="page3.html" target="_block">HOME</a>
+            <a href="page3.html" target="_block">INDEX</a>
+            <a href="page3.html" target="_block">ABOUT</a>
+            <a href="https://vanisridhar102.github.io/Ex2_19ITR102/" target="_block">LOGIN</a>
+            <div class="dropdown">
+                <button class="dropbut">LIST</button>
+                <div class="dropdown-content">
+                    <a href="page3.html" target="_block">LINT 1</a><hr>
+                    <a href="page3.html" target="_block">LIST 2</a><hr>
+                    <a href="page3.html" target="_block">LIST 3</a>
+                </div>
+            </div>
+       </div>
+       <div>
+       <div class="content-box">
+           <a href="end.html" target="_block">INFO</a><hr>
+           <a href="end.html" target="_block">READ MORE</a><hr>
+           <a href="end.html" target="_block">DOWNLOAD</a><hr>
+           <a href="end.html" target="_block">SETTINGS</a><hr>
+       </div>
+       <div class="content-area">
+           <pre><h1> NATURE TOURISM</h1><br></pre>
+           <p><img src="image23.jpg" width="500" height="250" alt="Wrong_Path" style="float:right">The Poetry Translation Centre is very proud to partner with the Aké Arts and Books Festival to present a special series of translation workshops on the Nigerian languages of Yoruba, Igbo and Hausa.
+              <span>like-minded poetry lovers from across the world</span> to discover new poetry and different cultures, share insights and language skills, working together to open up a poem in its original language and reassemble it in English. The result will be new group translations of contemporary Nigerian poems by Oladapo Olatubosun, Auwalu Anwar and Amarachi Attamah.</p><br>
+            <p><span>What is nature?</span> There is a great deal of talk and endeavour to protect nature, the animals, the birds, the whales and dolphins, to clean the polluted rivers, lakes, fields and so on. Nature is not put together by thought, as religion and belief are. Nature is the tiger, that extraordinary animal with its energy, its great sense of power.
+                 Nature is the solitary tree in the field, the meadows and the grove; it is that squirrel shyly hiding behind a bough. Nature is the ant, the bee and all the living things of the earth. Nature is the river, not a particular river, whether the Ganga, the Thames or the Mississippi.</p>
+       </div>
+       </div>
+    </body>
+</html>

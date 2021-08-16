@@ -1,0 +1,68 @@
+body{
+    margin:0px;
+}
+.d1{
+    border: 3px solid black;
+    background-image: url('tn.jpg');
+    background-size: 100% 100%;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+.d2{
+    border: 3px solid  red;
+    width: 200px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: -70px;
+    border-radius: 2%;
+}
+span{
+    color:black;
+}
+.i1{
+    border: 1px solid white;
+    border-radius:8px;
+    border-image-repeat: none;
+    width:100%;
+    height: 30%;   
+}
+h1{
+    color:blue;
+    text-align: center;
+}
+p{
+    color:rgb(238, 183, 30);
+}
+.d3{
+    border: 3px solid rgb(245, 43, 21);
+    width: 200px;
+    height: 600px;
+    margin-left: 750px;
+    margin-top: -600px;
+    border-radius: 2%;
+}
+.i2{
+    border: 1px solid white;
+    border-radius:8px;
+    border-image-repeat: none;
+    width:100%;
+    height: 30%; 
+}
+.d4{
+    float:right;
+    height:110%;
+    width:16%;
+    margin-top: -665px;
+    background-color: rgb(33, 156, 130);
+}
+a{
+    list-style-type: none;
+    color:whitesmoke;
+    text-decoration: none;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+
